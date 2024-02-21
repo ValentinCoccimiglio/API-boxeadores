@@ -6,7 +6,7 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"github.com/tuusuario/boxeador-api/pkg/handler"
+	"github.com/tuusuario/boxeador-api/cmd/api/handler"
 )
 
 func main() {

@@ -1,19 +1,11 @@
 package handler
 
 import (
-	"apiboxeadores/pkg/domain"
 	"encoding/json"
 	"net/http"
 
-	"github.com/tuusuario/boxeador-api/pkg/service"
+	"github.com/tuusuario/boxeador-api/internal/domain"
 )
-
-var boxeadorService *service.BoxeadorService
-
-func init() {
-	// Aquí puedes inicializar el repositorio y el servicio si es necesario
-	// Ejemplo: boxeadorService = service.NewBoxeadorService(repository.NewTuRepositorio())
-}
 
 func GetBoxeadores(w http.ResponseWriter, r *http.Request) {
 	// Lógica para obtener boxeadores desde el servicio
