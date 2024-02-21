@@ -1,4 +1,4 @@
-package main
+package domain
 
 type Boxeador struct {
 	ID     string `json:"id"`

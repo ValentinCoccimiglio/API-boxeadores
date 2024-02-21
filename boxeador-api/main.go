@@ -6,13 +6,14 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
+	"github.com/tuusuario/boxeador-api/pkg/handler"
 )
 
 func main() {
 	router := mux.NewRouter()
 
 	// Define las rutas
-	router.HandleFunc("/boxeadores", GetBoxeadores).Methods("GET")
+	router.HandleFunc("/boxeadores", handler.GetBoxeadores).Methods("GET")
 
 	// Inicia el servidor
 	fmt.Println("Servidor iniciado en http://localhost:8080")
