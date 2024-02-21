@@ -1,6 +1,6 @@
 package boxeadores
 
-import "github.com/tuusuario/boxeador-api/internal/domain"
+import "github.com/ValentinCoccimiglio/API-boxeadores/internal/domain"
 
 type BoxeadorService struct {
 	repo BoxeadorRepository

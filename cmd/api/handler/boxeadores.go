@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/tuusuario/boxeador-api/internal/domain"
+	"github.com/ValentinCoccimiglio/API-boxeadores/internal/domain"
 )
 
 func GetBoxeadores(w http.ResponseWriter, r *http.Request) {
